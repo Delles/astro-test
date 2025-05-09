@@ -1,3 +1,6 @@
+---
+const pageTitle = "Blog"
+---
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -6,13 +9,13 @@
         <meta name="description" content="My blog about my journey with Astro" />
         <meta name="generator" content={Astro.generator} />
 
-		<title>Blog</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/blog">Blog</a>
-		<h1>Blog</h1>
+		<h1>{pageTitle}</h1>
         <h2>My First Blog Post</h2>
         <p>This is my first blog post. I'm excited to share my thoughts and ideas with you!</p>
         <p>I'm learning Astro, and I'm loving it! It's a great way to build websites quickly and efficiently.</p>
